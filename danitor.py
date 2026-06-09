@@ -1,8 +1,15 @@
 import os
 from datetime import datetime, timezone
 import sys
+import user
 
 def progFunc():
+
+    wait = 0
+
+    # COMMAND LIST
+
+    cmdList = ["time", "about", "clear", "exit", "userchg", "meg"]
 
     # USER-INPUT COMMANDS
     
@@ -48,5 +55,15 @@ def progFunc():
         print("Danitor 1.0")
         print("(c) 2026 Danny Aguero")
         print("You may find me on most social medias at @quenzartne.")
+
+    if cmd.strip() == "meg":
+        print("MEG is currently not available.")
+
+    if cmd.strip() == "userchg":
+
+        user.userChg()
+
+    if cmd.strip() not in cmdList:
+        print("Unknown command.")
             
 # LOOP
