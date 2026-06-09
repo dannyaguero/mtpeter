@@ -6,7 +6,7 @@ Included in the program is 'Danitor', which is supposed to kinda be inspired by 
 `cmd, arg1, arg2`
 The commas are required if you include arguments to your command.
 ## Danitor Commands
-- `time` - States the time in your local timezone. Including `12` in place of `arg1` will state the time in 12-hhour format.
+- `time` - States the time in your local timezone. Including `12` in place of `arg1` will state the time in 12-hour format.
 - `clear` - Clears the screen.
 - `about` - States the about information regarding MT. PETER and Danitor.
 - `exit` - Exits the program.
