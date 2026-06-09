@@ -14,5 +14,5 @@ The commas are required if you include arguments to your command.
 
 # To-do
 - [ ] Add more functionality besides the Danitor
-- [ ] Add file saving and loading to remember usernames and other data (via config file?)
+- [X] Add file saving and loading to remember usernames and other data (via config file?)
 - [ ] Possibly implement a user-input calculator for basic math
